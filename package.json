@@ -1,0 +1,11 @@
+{
+  "name": "flashcards",
+  "version": "0.0.1",
+  "description": "CRUD web-application for creating and managing flashcards.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "BxReyes",
+  "license": "MIT"
+}

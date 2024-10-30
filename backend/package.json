@@ -1,0 +1,11 @@
+{
+  "name": "flashcards-api",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "REST API for the Flashcards web-application"
+}
