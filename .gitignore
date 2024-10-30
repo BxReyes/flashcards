@@ -1,0 +1,5 @@
+# Ignore all TXT files
+*.txt
+
+# Directories
+node_modules/
