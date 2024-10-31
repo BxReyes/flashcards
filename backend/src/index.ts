@@ -1,4 +1,4 @@
-import express, { Express, Request, Response } from 'express';
+import express, { Express } from 'express';
 import config from './utils/config';
 import usersRouter from './routers/users-router';
 
