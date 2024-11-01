@@ -4,13 +4,6 @@ import { RouterController } from '../utils/types';
 import client from '../db/pool-client';
 import db from '../db/user-queries';
 
-async function testConnection(
-    _req: Request,
-    res: Response
-): Promise<any> {
-    return res.status(200).json({ message: 'connection up' });
-}
-
 async function GETUsers(_req: Request, res: Response): Promise<any> {
     try {
         const users = await client.query(db.GET_ALL);
@@ -49,7 +42,6 @@ async function POSTUser(req: Request, res: Response): Promise<any> {
 }
 
 export default {
-    testConnection,
     GETUsers,
     GETUserID,
     POSTUser
