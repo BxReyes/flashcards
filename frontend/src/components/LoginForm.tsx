@@ -12,8 +12,11 @@ const LoginForm: React.FC = () => {
 
   return (
     <div className='auth-form__container'>
-      <form>
+      <h2 className='login-title'>Log In</h2>
+      <p>Welcome Back</p>
+      <form onSubmit={handleSubmit}>
         <input
+          className='auth-input login-input'
           type={username.type}
           value={username.value}
           onChange={(e) => username.onChange(e.target.value)}
@@ -21,6 +24,7 @@ const LoginForm: React.FC = () => {
         />
 
         <input
+          className='auth-input login-input'
           type={password.type}
           value={password.value}
           onChange={(e) => password.onChange(e.target.value)}
@@ -28,8 +32,8 @@ const LoginForm: React.FC = () => {
         />
 
         <button
+          className='form-submit-btn login-btn'
           type='submit'
-          onSubmit={handleSubmit}
         >
           Login
         </button>
