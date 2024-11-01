@@ -1,9 +1,9 @@
-import React from 'react';
+import AuthPage from './components/AuthPage';
 
-const App: React.FunctionComponent = () => {
+const App = (): JSX.Element => {
   return (
     <main>
-      <h1>App</h1>
+      <AuthPage />
     </main>
   )
 }

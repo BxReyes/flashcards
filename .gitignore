@@ -1,5 +1,6 @@
-# Ignore all TXT files
+# Filetypes
 *.txt
+*.env
 
 # Directories
 node_modules/
